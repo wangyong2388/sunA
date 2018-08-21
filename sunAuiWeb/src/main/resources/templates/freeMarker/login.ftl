@@ -38,11 +38,10 @@
 						 document.getElementById('tip').innerHTML = "密码不能为空";
 					 }else{
 						 $.ajax({
-								url:"/loginn",
+								url:"/login",
 								data:{
 									"password":password,
-									"username":username,
-									"remFlag":remFlag
+									"userName":username
 								},
 								type:"post",
 								dataType:"text",

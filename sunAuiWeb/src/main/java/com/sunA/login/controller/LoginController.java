@@ -10,9 +10,13 @@
 package com.sunA.login.controller;
 
 import com.sunA.core.controller.BaseController;
+import com.sunA.login.service.LoginService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -25,9 +29,30 @@ import java.util.Map;
  */
 @Controller
 public class LoginController extends BaseController {
+    /**
+     *
+     */
+    @Autowired
+    protected LoginService loginService;
     @RequestMapping("/")
-    public String index(Map<String, Object> map){
-        System.out.print("进入login");
+    public String index(){
+        System.out.print("进入index");
         return "login";
     }
+
+    @RequestMapping("/login")
+    @ResponseBody
+    public int login(
+            String userName,
+            String password
+    ){
+        System.out.print("进入login");
+        Map<String,Object> params = new HashMap<>();
+        params.put("userName",userName);
+        params.put("password",password);
+        int loginId=loginService.login(params);
+        return loginId;
+    }
+
+
 }

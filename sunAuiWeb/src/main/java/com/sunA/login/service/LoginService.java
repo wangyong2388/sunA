@@ -9,6 +9,8 @@
  */
 package com.sunA.login.service;
 
+import java.util.Map;
+
 /**
  *
  * 〈〉
@@ -17,6 +19,6 @@ package com.sunA.login.service;
  * @create 2018/8/21
  * @since 1.0.0
  */
-public class LoginService {
-
+public interface LoginService {
+     Integer login(Map<String,Object> params);
 }

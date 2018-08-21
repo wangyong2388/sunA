@@ -9,7 +9,9 @@
  */
 package com.sunA.login.mapper;
 
+import com.sunA.login.Bean.Login;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 
 /**
  *
@@ -20,6 +22,7 @@ import org.apache.ibatis.annotations.Mapper;
  * @since 1.0.0
  */
 @Mapper
-public class LoginMapper {
+public interface LoginMapper {
 
+     Login login(@Param("userName")String userName) ;
 }
