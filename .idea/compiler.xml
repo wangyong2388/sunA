@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sunAcommon" />
+        <module name="sunAmessage" />
+        <module name="sunAmgrTool" />
+        <module name="sunAthrid" />
+        <module name="sunAuiWeb" />
+        <module name="sunAutil" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sunAcommon" target="1.8" />
+      <module name="sunAmessage" target="1.8" />
+      <module name="sunAmgrTool" target="1.8" />
+      <module name="sunAparent" target="1.5" />
+      <module name="sunAthrid" target="1.8" />
+      <module name="sunAuiWeb" target="1.8" />
+      <module name="sunAutil" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sunAcommon/sunAcommon.iml" filepath="$PROJECT_DIR$/sunAcommon/sunAcommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sunAmessage/sunAmessage.iml" filepath="$PROJECT_DIR$/sunAmessage/sunAmessage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sunAmgrTool/sunAmgrTool.iml" filepath="$PROJECT_DIR$/sunAmgrTool/sunAmgrTool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sunAparent/sunAparent.iml" filepath="$PROJECT_DIR$/sunAparent/sunAparent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sunAthrid/sunAthrid.iml" filepath="$PROJECT_DIR$/sunAthrid/sunAthrid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sunAuiWeb/sunAuiWeb.iml" filepath="$PROJECT_DIR$/sunAuiWeb/sunAuiWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sunAutil/sunAutil.iml" filepath="$PROJECT_DIR$/sunAutil/sunAutil.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/sunAcommon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sunAmessage" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sunAmgrTool" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sunAparent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sunAthrid" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sunAuiWeb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sunAutil" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
