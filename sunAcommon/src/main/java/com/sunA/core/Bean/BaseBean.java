@@ -17,6 +17,6 @@ package com.sunA.core.Bean;
  * @create 2018/8/21
  * @since 1.0.0
  */
-public class BaseBean {
+public class BaseBean implements Entity{
 
 }
