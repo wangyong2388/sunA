@@ -14,7 +14,6 @@ import com.sunA.login.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -36,12 +35,14 @@ public class LoginController extends BaseController {
     protected LoginService loginService;
     @RequestMapping("/")
     public String index(){
+
+        request.getParameter("");
         System.out.print("进入index");
         return "login";
     }
 
     @RequestMapping("/login")
-    @ResponseBody
+    //@ResponseBody
     public int login(
             String userName,
             String password
@@ -54,5 +55,11 @@ public class LoginController extends BaseController {
         return loginId;
     }
 
+
+    @RequestMapping("/successLogin")
+    public String successLogin(
+    ){
+        return "index";
+    }
 
 }
